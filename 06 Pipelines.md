@@ -291,7 +291,7 @@ pipeline {
 - Agregar un cambio al pipeline
 
 # 6. Práctica: Pipeline
-## 6.1. Crear un nuevo Jenkins File en el proyecto con le nombre practica.jenkins
+## 6.1. Crear un nuevo Jenkins File en el proyecto con el nombre practica.jenkins
 ## 6.2. Agregar las variables
 ```
 developer: <ESTUDIANTE>
