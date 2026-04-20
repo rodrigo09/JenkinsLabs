@@ -27,7 +27,7 @@ Esta conexión permite la comunicación entre aplicaciones (Jenkins y GitLab)
 ## 3.1. Crear el Access Token
 En GitLab:
 - Edit Profile > Personal Access Tokens
-- Add new
+- Generate Token
 - name: demo
 - scope: API
 - create
