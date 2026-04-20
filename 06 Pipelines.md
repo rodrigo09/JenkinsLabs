@@ -313,7 +313,7 @@ El resultado de sumar <NUMERO 1> + <NUMERO 2> es: <RESULTADO>
 ```
 ## 6.7. Crear un nuevo Job (Item) de tipo Pipeline y conectarlo con el Jenkins file creado en el paso 6.1
 
-# 7. Multi-branch
+# 7. Multi-branch se crea en Jenkins
 ## 7.1. (Opcional) Eliminar los pipelines anteriores
 Para evitar ejecuciones por Trigger.
 
