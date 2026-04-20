@@ -100,7 +100,7 @@ git ls-remote -h -- git@gitlab.com:<USERNAME>/public-api.git HEAD
 pipeline {
     agent any
     environment {
-	    name = 'CARLOS'
+	    name = 'RODRI'
     }
     stages {
         stage('Hello') {
@@ -226,7 +226,7 @@ pipeline {
 pipeline {
     agent any
     environment {
-        name = 'CARLOS'
+        name = 'RODRI'
     }
     stages {
         stage('Hello') {
