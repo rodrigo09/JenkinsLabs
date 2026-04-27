@@ -281,44 +281,6 @@ Cada uno funciona como un Pipeline separado
 ## 7.7. Test: Cambiar un valor del jenkinsfile y hacer push a dev
 ## 7.8. Validar le Pipeline del branch Dev
 
-## 7.9. Variables por branch
-Agregar al jenkinsfile el echo:
-```js
-echo "Branch: $BRANCH_NAME"
-```
-> la Variable BRANCH_NAME indica el nombre del branch que hizo el webhook
-
-
-### 7.9.1. Crear stages por branch
-```js
-pipeline {
-    agent any
-
-    stages {
-        stage('Build Dev') {
-            when {
-                branch 'dev'
-            }
-            steps {
-                script {
-                    echo "Construyendo el branch DEV"
-                }
-            }
-        }
-        stage('Build Prod') {
-            when {
-                branch 'main'
-            }
-            steps {
-                script {
-                    echo "Construyendo el branch PROD"
-                }
-            }
-        }
-    }
-}
-```
-
 ## 7.10. Merge dev -> main
 - Delete source branch when merge request is accepted: false
 
