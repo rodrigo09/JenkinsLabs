@@ -163,11 +163,11 @@ pipeline {
 ```js
 pipeline {
     agent any
+
     stages {
         stage('Hello') {
             steps {
-              echo "Global Name: ${env.GLOBAL_NAME}"
-              echo "Global Name: ${GLOBAL_NAME}"
+                echo "Global Name: ${env.GLOBAL_NAME}"
             }
         }
     }
